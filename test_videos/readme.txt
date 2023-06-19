@@ -1,0 +1,2 @@
+NOTE:
+The video files used for testing in this project have been obtained from the internet, and I do not claim ownership or authorship of these files. These videos are solely used for testing and demonstration purposes only.
