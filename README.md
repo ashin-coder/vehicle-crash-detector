@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Vehicle Crash Detector</h1>
 
-https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/063a5a2a-3d0d-4f98-94d0-967e9fb36596
+https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/21504e72-3946-4e3a-9865-5cb34fde86df
 
 The Vehicle Crash Detector is an innovative project that aims to enhance road safety by actively detecting Vehicle Crash Accidents on the road using CCTV footage and alert mechanisms. The system employs object detection technology based on TensorFlow to accurately identify accidents involving vehicle crashes and promptly notify the nearest hospitals police stations and RTO with detailed accident information. The core of the system relies on CCTV data as a source to function The Vehicle Crash Detector project is a Vehicle Crash Detection and Alert System which could be integrated with existing systems. By leveraging video surveillance systems the focus of this system is to actively detect vehicle crash accidents and promptly respond to ensure the safety of individuals involved. The system utilizes advanced detection algorithms for crash detection based on TensorFlow which enables it to identify vehicle crashes in real time. By analysing the CCTV footage the system can detect potential accidents involving vehicle crashes. When an accident is detected the system captures a snapshot of the accident scene and generates an alert in the form of Email and SMS with necessary information. Upon detection, the Vehicle Crash Detector automatically notifies the nearest hospitals, police stations and RTO providing them with the accident location snapshot and initial details about the vehicle crash accident. This rapid alert mechanism ensures that emergency services can be dispatched promptly to the accident location potentially reducing response times and improving the chances of saving lives. Overall the Vehicle Crash Detector offers a comprehensive solution to enhance road safety through proactive accident detection and swift response. By leveraging CCTV technology, advanced algorithms and integration with emergency services the system aims to minimize the impact of vehicle crash accidents and provide timely assistance to those in need.
 
@@ -30,7 +30,7 @@ To train the Vehicle Crash Detection model using the TensorFlow Object Detection
 
 The model used here is trained using a dataset consisting of 4000+ images of vehicle crash accidents sourced from the internet which are manually labelled, a batch size of 32 and 50000 was taken as the number of steps to train using TensorFlow 2. OpenCV with GPU acceleration was used to run the model in the project which allows for efficient and high-speed processing of computer vision tasks, leveraging the parallel processing capabilities of GPUs to significantly enhance performance and enable real-time video analysis. The model developed is used in the application and it's successful in detecting vehicle crashes from videos provided to it through the application interface as the source. Once the Vehicle Crash is Detected, the user will be notified about the detection of the vehicle crash and an alert message being sent in the application window. The Detection model was trained based on the learning from the YouTube tutorials provided by TechZizou. The specific tutorial can be found at the following link: [YouTube Tutorial](https://www.youtube.com/watch?v=amURyS6CAaY&ab_channel=techzizou). For further information and resources, you can visit TechZizou's website at [TechZizou Website](https://www.techzizou.com).
 
-The automated Alert Message will be sent in the form of SMS and Email to the emergency services in this case Hospital, Police Station and RTO. SMS messages send to them would contain initial information regarding the vehicle crash accident. Each Department will receive specific emails based on the services provided by them and these email contents are written in external text files. The emails will contain initial information regarding the vehicle crash accident which include location, time, image from the vehicle crash site etc. Here API used for SMS service is provided by fast2sms and the Email service is provided by Gmail.
+The automated Alert Message will be sent in the form of SMS and Email to the emergency services in this case Hospital, Police Station and RTO. SMS messages sent to them would contain initial information regarding the vehicle crash accident. Each Department will receive specific emails based on the services provided by them and these email contents are written in external text files. The emails will contain initial information regarding the vehicle crash accident which include location, time, image from the vehicle crash site etc. Here API used for SMS service is provided by fast2sms and the Email service is provided by Gmail.
 
 The Vehicle Crash Detector saves images of the crash detected locally which could be viewed from the application itself from Records Section. The Graphical User Interface in the Application is developed using Tkinter. It makes the application easy to use and user-friendly.
 
@@ -43,20 +43,20 @@ https://developers.google.com/gmail/api/guides
 ## Project Screenshots
 
 * Vehicle Crash Detector Home Page
-![vcd_demo_img_1](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/37d132b3-e1ca-4756-85cf-4441afa4a990)
+![home](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/3bc2faf7-55f0-4d46-9a5c-956f2d3cc0fd)
 
 * Vehicle Crash Detector Records Page
-![vcd_demo_img_2](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/496521a0-11b2-4389-a37d-af2d4eb69f8b)
+![records](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/c930e8d1-30af-45d4-b191-73f21cb64dfe)
 
 * SMS Alert
-![sms_alert](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/5d4e3a18-ff07-451f-9005-cfbbc9427dce)
+![sms](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/3259e7f7-b815-4ee2-89e3-b793bb88593d)
 
 * Email Alert (Hospital)
-![hospital_email](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/5e5a752d-c931-4dc1-b859-369d34226864)
+![email_hospital](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/f0a0be7a-6c7c-4cbd-8d95-2c97ac44d116)
 * Email Alert (Police Station)
-![police_station_email](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/24ee976b-03b3-4873-8c90-3826a6ee52a2)
+![email_policestation](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/6edc28ec-a9a3-4fac-9005-0b6f6d546f3e)
 * Email Alert (RTO)
-![rto_email](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/358f33e4-0d8d-425e-90e1-c6ec19fc836c)
+![email_rto](https://github.com/ashin-coder/vehicle-crash-detector/assets/73836674/6f8f6412-235b-45ea-8989-7fab8f01dc6e)
 
 ## Contributors
 
